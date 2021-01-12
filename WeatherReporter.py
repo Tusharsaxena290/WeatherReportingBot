@@ -1,8 +1,7 @@
-#http://api.openweathermap.org/data/2.5/weather?appid=3ceb1c187d0b745f699d2a9c76c3f5af&q=chennai
 import requests, json
 import subprocess
 
-api_key = "3ceb1c187d0b745f699d2a9c76c3f5af"
+api_key = "xxxxxxxxx" #Enter your API here.
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 city_name = input("Enter city name : ") 
 complete_url = base_url + "appid=" + api_key + "&q=" + city_name 
